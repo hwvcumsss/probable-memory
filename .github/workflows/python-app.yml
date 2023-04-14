@@ -33,3 +33,6 @@ jobs:
     - name: Manish Tiwrekar
       run: |
         python MicrosoftRewardsBot.py --headless --fast --emailalerts --accounts "${{ secrets.REWARDS_MANISH }}"
+    - name: Aniket Parab
+      run: |
+        python MicrosoftRewardsBot.py --headless --fast --emailalerts --accounts "${{ secrets.REWARDS_ANIKET }}"
